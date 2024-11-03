@@ -1,0 +1,83 @@
+/* Подключение шрифта для всей страниц  */
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
+/* Задаем настройки для контейнера */
+.container {
+	/* Ширина контейнра */
+	width: 1440px;
+	/* Сделать весь контент по центру (двигаем сам контейнер) */
+	margin: 0 auto;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	background-color: #a9baff;
+	padding: 15px;
+	margin-top: 50px;
+	align-items: center;
+	border: 1px black solid;
+}
+
+.header__list {
+	display: flex;
+	gap: 60px;
+}
+
+.header__link {
+	color: #505f98;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.header__button {
+	outline: none;
+	border: none;
+	padding: 4px 55px 4px 55px;
+	background: #111b47;
+	color: white;
+	font-weight: 600;
+	font-size: 12px;
+	border-radius: 3px;
+}
+
+/* FOOTER */
+
+.footer {
+	background-color: #e7ecff;
+	display: flex;
+	justify-content: space-around;
+	border: 1px black solid;
+	padding: 15px;
+}
+
+.footer__list__1 {
+	display: flex;
+	gap: 500px;
+}
+
+/* MAIN */
+
+main {
+	border: 1px black solid;
+	padding: 150px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+div section {
+	border: 1px black solid;
+	padding: 15px;
+	margin: 50px;
+}
+
+.center {
+	/* Центрует текст */
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 50px;
+}
